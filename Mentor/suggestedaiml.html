@@ -164,7 +164,7 @@
 function animateProgressBar(callback) {
   var progressBar = document.getElementById("myBar");
   var width = 1;
-  var interval = setInterval(frame, 5000); // Adjust animation speed (lower interval value for faster animation)
+  var interval = setInterval(frame, 10); // Adjust animation speed (lower interval value for faster animation)
   function frame() {
     if (width >= 100) {
       clearInterval(interval);
